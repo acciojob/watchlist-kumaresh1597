@@ -1,9 +1,10 @@
 package com.driver;
 
+import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.*;
-
+@Repository
 public class MovieRepository {
 
     private Map<String,Movie> movieData = new HashMap<>();
